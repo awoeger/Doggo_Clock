@@ -78,4 +78,6 @@ const getPuppyPicture = () => {
   }
 };
 
-document.querySelector('select').addEventListener('change', getPuppyPicture);
+document.getElementById('wake-up').addEventListener('change', getPuppyPicture);
+document.getElementById('lunch').addEventListener('change', getPuppyPicture);
+document.getElementById('nap').addEventListener('change', getPuppyPicture);
